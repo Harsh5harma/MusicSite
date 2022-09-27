@@ -90,4 +90,13 @@ body{
     text-decoration: none;
     font-size: .9rem;
     border-radius: 5%;
+    outline: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(78, 178, 255);
+}
+
+.btn::focus{
+    background-color: lightskyblue;
 }
